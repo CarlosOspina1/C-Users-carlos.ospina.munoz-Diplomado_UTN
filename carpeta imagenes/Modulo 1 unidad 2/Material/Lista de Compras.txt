@@ -3,3 +3,5 @@ Cebolla
 Zanahoria
 Lechuga
 Mango
+
+Guayaba
