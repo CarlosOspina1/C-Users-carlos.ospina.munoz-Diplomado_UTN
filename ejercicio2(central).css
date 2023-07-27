@@ -1,0 +1,37 @@
+.contenedor{
+	background-color: rgb(65, 231, 250);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row-reverse;
+	
+}
+
+.item{
+	background-color: #52ec15;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
+	justify-content: center;
+	align-items: center
+		}
+	.item:nth-child(2){
+	background-color: #5899ee;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
+	justify-content: center;
+	align-items: center
+		}
+	.item:nth-child(3){
+	background-color: #eb1010;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
+	justify-content: center;
+	align-items: center
+		}
