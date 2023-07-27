@@ -1,0 +1,18 @@
+.contenedor{
+	position: relative;
+	top: auto;
+	left: 90%;
+	/*flex-direction: row-reverse; */
+	/*flex-direction: column;*/
+
+	display: column;
+}
+
+.item{
+	background-color: #486e77;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+}
