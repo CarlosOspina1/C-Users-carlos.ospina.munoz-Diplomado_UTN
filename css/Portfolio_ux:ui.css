@@ -1,0 +1,108 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line: height 20px;
+    background-color: #EAE6E6;
+}
+
+header{
+    background-color: #EAE6E6;
+    padding: 16px 0;
+    
+}
+img{
+    border-image-outset: 90px;
+    border-image-repeat:round;
+}
+
+header h1{
+    color: #574700;
+    font-size: 40px;
+    font-weight: 200;
+    font-style:normal;
+    margin-left: 10px;
+}
+nav{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line: height 20px;
+    background-color: #EAE6E6;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 2;
+    padding: 0;
+    
+}
+nav ul li{
+    flex-grow: 1;
+    
+}
+nav ul li a{
+    color: #0D0A00;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover {
+    background-color:#d2cdcd;
+}
+footer{
+    background-color:#EAE6E6;
+    position:absolute;
+    
+    bottom: 0%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul li a.active {
+    background-color:#a7a3a3;
+}
+
+.holder
+
+
+/* seccion Behance*/
+
+
+/* seccion git */
+.gitportfolio a{
+    color: #574700;
+    font-size: 2rem;
+    text-align: center;
+    font-style:oblique;
+    
+}
+.GitHub-logo {
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin:0 auto;
+  }
+
+  /* seccion social media */
+
+  .Socialmedia {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    .Socialmedia a {
+        display: block;
+        text-align: center;
+      }
+      
+    .Socialmedia img {
+        width: 10%;
+        height: 10%;
+        display: block;
+        margin:0 auto;
+      }
