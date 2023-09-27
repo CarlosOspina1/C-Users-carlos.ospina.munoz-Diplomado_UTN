@@ -1,0 +1,197 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* about me */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line: height 20px;
+    background-color: #EAE6E6;
+}
+
+header{
+    background-color: #EAE6E6;
+    padding: 16px 0;
+    
+}
+img{
+    border-image-outset: 90px;
+    border-image-repeat:round;
+}
+
+header h1{
+    color: #574700;
+    font-size: 40px;
+    font-weight: 200;
+    font-style:normal;
+    margin-left: 10px;
+}
+nav{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line: height 20px;
+    background-color: #EAE6E6;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 2;
+    padding: 0;
+    
+}
+nav ul li{
+    flex-grow: 1;
+    
+}
+nav ul li a{
+    color: #0D0A00;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover {
+    background-color:#d2cdcd;
+}
+footer{
+    background-color:#EAE6E6;
+    position:fixed;
+    
+    bottom: 0%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul li a.active {
+    background-color:#a7a3a3;
+}
+
+.holder
+
+
+/* seccion Behance*/
+
+
+/* seccion git */
+.gitportfolio a{
+    color: #574700;
+    font-size: 2rem;
+    text-align: center;
+    font-style:oblique;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+      }    
+
+.GitHub-logo {
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin:0 auto;
+    margin-top: 50px;
+  }
+/* end seccion git */
+
+/* seccion social media */
+
+.Socialmedia {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+.Socialmedia a {
+        display: block;
+        text-align: center;
+      }
+      
+.Socialmedia img {
+        width: 10%;
+        height: 10%;
+        display: block;
+        margin:0 auto;
+      }
+/* end seccion social media */
+
+/* mockups */
+.Mockups {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    flex-wrap: wrap;
+    margin-left: 700px;
+  }
+.Mockups img {
+    box-shadow: 5px 5px 10px #6B4949;
+    width: 600px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* end mockups */
+
+/* contact */
+.contact {
+    display: flex;
+    gap: 24px;
+    margin-left: 20%;
+    border: 2px;
+}
+.imput p{
+    font-size: 14px;
+}
+.imput ul li{
+    font-size: 12px;
+}
+.form p {
+    display: flex;
+    font-size: 14px;
+
+}
+.form p label{
+    min-width: 100px;
+    background-color: #a7a3a3;
+    display: flex;
+    align-items: center;
+   
+}
+.form p input,
+.form p textarea {
+    width: 100px;
+    
+}
+.form p input,
+.form p textarea {
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #9E9B9B;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+.form textarea {
+    resize: none;
+    height: 150px;
+}
+
+
+.form input[type="submit"]{
+    background: #B8B4B4;
+    box-shadow:0 0 10px #9E9B9B;
+    color: #574700;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 6rem;
+    cursor: pointer;
+}
+.form input[type="submit"]:hover {
+    background-color:white;
+}
+
+/* end contact */
