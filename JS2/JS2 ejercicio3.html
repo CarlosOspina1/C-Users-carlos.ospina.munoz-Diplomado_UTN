@@ -8,7 +8,7 @@
 <body>
     <p>Ver consola</p>
     <script>
-        var alumnos = [
+        const alumnos = [
           {
             nombre: 'Juan Gomez',
             nota: 7
@@ -36,12 +36,16 @@
           }
         ];
     
-        // Generamos el array de alumnos aprobados
-        var alumnosAprobados = alumnos.filter(function(alumno) {
+        const alumnosAprobados = alumnos.filter(function (alumno) {
           return alumno.nota >= 7;
         });
     
-        // Imprimimos el array de alumnos aprobados
         console.log(alumnosAprobados);
+    console.log(`${aprobados.lenght} aprobados`);
+
+        for(let i=0;<aprobados.length; i++){
+            document.write(`<p>Alumno: ${aprobados[i].nombre}, Nota:$(aprobados[i].
+            nota}</p>`)
+            }
       </script>
 </body>
