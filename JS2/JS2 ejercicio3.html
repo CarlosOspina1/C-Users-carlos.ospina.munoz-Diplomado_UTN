@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="JS2 ejercicio1.css">
 <head>
   <meta charset="UTF-8">
-  <title>array</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array</title>
 </head>
 <body>
     <p>Ver consola</p>
+
     <script>
         const alumnos = [
           {
@@ -36,16 +37,16 @@
           }
         ];
     
-        const alumnosAprobados = alumnos.filter(function (alumno) {
+        const aprobados = alumnos.filter(function (alumno) {
           return alumno.nota >= 7;
         });
     
-        console.log(alumnosAprobados);
-    console.log(`${aprobados.lenght} aprobados`);
+        console.log(aprobados);
+        console.log(`${aprobados.lenght} aprobados`);
 
-        for(let i=0;<aprobados.length; i++){
-            document.write(`<p>Alumno: ${aprobados[i].nombre}, Nota:$(aprobados[i].
-            nota}</p>`)
-            }
+        for(let i=0;<aprobados.length;i++){
+        document.write(`<p>Alumno: ${aprobados[i].nombre}, Nota:$(aprobados[i].nota}</p>`)
+        }
       </script>
 </body>
+</html>
